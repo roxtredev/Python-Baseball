@@ -15,4 +15,4 @@ plt.ylabel('Attendance')
 
 plt.axhline(y=attendance['attendance'].mean(), label='Mean', linestyle='--', color='green')
 
-plt.show() 
+plt.show()
