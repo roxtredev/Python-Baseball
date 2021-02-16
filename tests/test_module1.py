@@ -1,4 +1,15 @@
-import pytest
+#import sys
+#sys.path.insert(0, "..")
+
+#print("********************************************************")
+#from pathlib import Path
+#import os
+#print(os.path.dirname(os.path.abspath(__file__)))
+#print("**-------------------**")
+#print(sys.path)
+#print("********************************************************")
+
+from . import pytest
 
 from .utils import get_assignments, get_calls, get_for_loops
 from stats import data
